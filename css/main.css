@@ -1,0 +1,60 @@
+.img-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle {
+    border-radius: 50%;
+}
+
+:root {
+    --color-main: #6a87a5;
+    --dark-premium: #5d80a3;
+    /* --dark-premium: #212529; */
+    --dark-light: #787878;
+    --bg-content: #c1e0ff;
+}
+
+.bg-main {
+    background-color: var(--color-main);
+}
+
+#content {
+    min-height: 600px;
+    height: auto;
+}
+
+.border-radius-15{
+    border-radius: 15px;
+}
+
+.opacity-70 {
+    opacity: .7;
+}
+
+.bg-dark-premium {
+    background-color: var(--dark-premium) !important;
+}
+
+.bg-dark-light{
+    background: linear-gradient(to bottom right, white, #5d80a3);
+}
+
+.bg-content {
+    background-color: var(--bg-content);
+}
+
+
+.rank-list {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.shadow{
+    box-shadow: 0.5rem .6rem rgba(255, 255, 255, .6) !important;
+} 
+
+#content .container .rank-list:hover {
+    transform: translate(2px,2px);
+    box-shadow: none !important;
+}

@@ -196,3 +196,11 @@ button:active{
     border-radius: 15px;
     background-color: transparent;
 }
+.marquee {
+    line-height: 3rem;
+    color: white;
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    font-size: 2rem;
+}

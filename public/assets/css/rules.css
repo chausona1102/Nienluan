@@ -6,6 +6,7 @@
 html {
     font-family: 'Pacifico', cursive;
     background: url('../img/bg-black.jpg');
+    font-size: 20px;
 }
 
 button.back {
@@ -93,7 +94,7 @@ h5{
 }
 
 .goal p {
-    padding: 5px;
+    padding: 0 5px;
 }
 
 

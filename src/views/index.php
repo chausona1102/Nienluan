@@ -61,12 +61,6 @@ if (isset($_SESSION['username'])) {
     <?php $this->stop(); ?>
     <?php $this->start('page-footer') ?>
     <div class="row" id="footer">
-        <?php
-        if (isset($_SESSION['updatescore'])) {
-            $notication = $_SESSION['updatescore'];
-            echo "<script>alert('$notication')</script>";
-        }
-        ?>
         <p>Develop by Chau So Na</p>
         <p>Contact: nab2205890@studen.ctu.edu.vn <i class="fa fa-envelope"></i></p>
         <p>Phone: 0374349105 <i class="fa fa-phone"></i></p>

@@ -100,7 +100,7 @@ function handleClick (event) {
       messageModal.innerHTML =  null;
       imgYes.classList.toggle('hide');
     }, 2000);
-    window.location.href = "../php/updatescore.php?score=" + score;
+    window.location.href = "/updatescore?score=" + score;
     revealAllMines();
   }else {
     const mineCount = countNeighborMines(row,col);

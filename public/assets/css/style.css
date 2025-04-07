@@ -5,7 +5,9 @@
 .cl-white {
     color: var(--color);
 }
-
+.cl-black {
+    color: #000;
+}
 
 
 .table-container {
@@ -16,4 +18,3 @@
 .col-9 .status .table{
     background-color: var(--bg-table) !important;
 }
-

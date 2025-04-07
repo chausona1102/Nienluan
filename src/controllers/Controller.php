@@ -6,7 +6,7 @@ use League\Plates\Engine;
 class Controller {
     protected $view;
     public function __construct() {
-        $this->view = new Engine( '/../views');
+        $this->view = new Engine( __DIR__ . '/../views');
     }
     public function sendPage($page, array $data = []){
         exit($this->view->render($page,$data));
